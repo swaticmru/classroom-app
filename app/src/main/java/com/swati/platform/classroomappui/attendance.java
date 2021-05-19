@@ -1,0 +1,18 @@
+package com.swati.platform.classroomappui;
+
+import android.support.v7.app.AppCompatActivity;
+import android.os.Bundle;
+
+import com.github.barteksc.pdfviewer.PDFView;
+
+
+public class attendance extends AppCompatActivity {
+    PDFView  ain1;
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_attendance);
+        ain1=(PDFView)findViewById(R.id.attendance);
+        ain1.fromAsset("attendance.pdf").load();
+    }
+}

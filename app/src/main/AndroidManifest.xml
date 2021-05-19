@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.swati.platform.classroomappui">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity"></activity>
+        <activity android:name=".splash" />
+        <activity android:name=".revisd" />
+        <activity android:name=".dean" />
+        <activity android:name=".football" />
+        <activity android:name=".attendance" />
+        <activity android:name=".sports" />
+        <activity android:name=".iat2" />
+        <activity android:name=".notesql" />
+        <activity android:name=".notescd" />
+        <activity android:name=".notesmad" />
+        <activity android:name=".notesins" />
+        <activity android:name=".notesSg6" />
+        <activity android:name=".notesSg5" />
+        <activity android:name=".notesSg4" />
+        <activity android:name=".notesSg3" />
+        <activity android:name=".notesSg2" />
+        <activity android:name=".notesSg1" />
+        <activity android:name=".notesSg" />
+        <activity android:name=".notesAi6" />
+        <activity android:name=".notesAi5" />
+        <activity android:name=".notesAi4" />
+        <activity android:name=".notesAi3" />
+        <activity android:name=".notesAi2" />
+        <activity android:name=".notesAi1" />
+        <activity android:name=".notesAi" />
+        <activity android:name=".nosql" />
+        <activity android:name=".ai" />
+        <activity android:name=".pc" />
+        <activity android:name=".sg" />
+        <activity android:name=".ins" />
+        <activity android:name=".pp" />
+        <activity android:name=".mad" />
+        <activity android:name=".compilerdesign" />
+        <activity android:name=".book4" />
+        <activity android:name=".book3" />
+        <activity android:name=".book2" />
+        <activity android:name=".book1" />
+        <activity android:name=".library" />
+        <activity
+            android:name=".Settings"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:label=""
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Announcements"
+            android:configChanges="orientation|screenSize"
+            android:label="Announcements" />
+        <activity
+            android:name=".Lectures"
+            android:configChanges="orientation|screenSize"
+            android:label="Lectures" />
+        <activity
+            android:name=".Events"
+            android:configChanges="orientation|screenSize"
+            android:label="Events" />
+        <activity
+            android:name=".Courses"
+            android:configChanges="orientation|screenSize"
+            android:label="Courses" />
+        <activity
+            android:name=".MyProfile"
+            android:configChanges="orientation|screenSize"
+            android:label="My Profile" />
+        <activity
+            android:name=".Home"
+            android:label="@string/title_activity_home"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".SignupScreen"
+            android:configChanges="orientation|screenSize"
+            android:theme="@style/MyAppTheme" />
+        <activity
+            android:name=".LoginScreen"
+            android:configChanges="orientation|screenSize"
+            android:theme="@style/MyAppTheme" />
+        <activity
+            android:name=".SplashScreen"
+            android:configChanges="orientation|screenSize"
+            android:theme="@style/Theme.AppCompat.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
